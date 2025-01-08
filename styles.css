@@ -19,9 +19,9 @@ content{
     width: 19%;
     background-color:rgb(218, 218, 218);
 }
-header{
-    color: red;
-    background-color: black;
+header h1{
+    color: rgb(250, 250, 250);
+    background-color: rgb(3, 121, 23);
     align-items: center;
 }
 main{
