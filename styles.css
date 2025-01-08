@@ -5,14 +5,10 @@
     list-style: none;
     text-decoration: none;
 }
-head{
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: black;
-    color: red;
+a{
+    text-decoration: none;
+    color: #f00e0e;
+    transition: 0.2s ease-in-out;
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -32,4 +28,13 @@ h1{
     color: red;
     background-color: black;
     align-items: center;
+}
+header{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: red;
 }
