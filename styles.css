@@ -11,7 +11,7 @@ body{
     padding: 0;
     background-color: f4f4f4;
 }
-#content{
+content{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,12 +19,12 @@ body{
     width: 19%;
     background-color:rgb(218, 218, 218);
 }
-header{
+content.header{
     color: red;
     background-color: black;
     align-items: center;
 }
-main{
+content.main{
     padding: 5%;
     display: flex;
     justify-content: space-between;
