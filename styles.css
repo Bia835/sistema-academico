@@ -110,22 +110,46 @@ input{
 .btn-rqst:hover{
     background-color:#0056b3
 }
-#botao{
+.ou {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(218, 218, 218);
+    margin: 20px 0;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #555;
+}
+.ou hr {
+    flex: 1;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+.govbr-login {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+#botao {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #007bff;
+    color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
     font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-#botao img{
+#botao img {
     margin-left: 10px;
 }
 
-#botao:hover{
-    background-color: gray;
+#botao:hover {
+    background-color: #0056b3;
 }
