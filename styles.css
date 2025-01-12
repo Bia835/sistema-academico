@@ -130,13 +130,12 @@ input{
     justify-content: center;
     margin: 20px 0;
 }
-
 #botao {
     display: inline-flex;
     align-items: center;
     justify-content: center;
     background-color: #007bff;
-    color:#fff;
+    color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
