@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
     font-family: Calibri, Arial, Helvetica, sans-serif;
@@ -11,7 +11,7 @@ body{
     padding: 0;
     background-color: #f4f4f4;
 }
-h1 {
+h1{
     color: #0056b3;
     font-size: 30px;
     background-color:black;
@@ -19,14 +19,14 @@ h1 {
     margin: 0;
 }
 
-h2 {
+h2{
     padding: 10px;
     margin-inline: 10px;
     font-size: 30px;
     margin: 0;
 }
 
-#container {
+#container{
     display: flex;
     flex-direction: column;
     justify-content: ;
@@ -38,7 +38,7 @@ h2 {
     background-color: rgb(231, 231, 231);
 }
 
-#botao {
+#botao{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,11 +50,11 @@ h2 {
     font-size: 16px;
 }
 
-#botao img {
+#botao img{
     margin-left: 10px;
 }
 
-#botao:hover {
+#botao:hover{
     background-color: gray;
 }
 
@@ -71,14 +71,14 @@ h2 {
 .form-group{
     margin-bottom:19px;
 }
-input {
+input{
     padding: 10px; 
     margin-top: 5px; 
     border: 1px solid #ccc; 
     border-radius: 5px;
     width: 79%;
 }
-.Acesso-Estu {
+.Acesso-Estu{
     text-align: right; 
     margin-top: 20px; 
 }
