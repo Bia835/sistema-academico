@@ -10,12 +10,11 @@
     <header>
         <h1>Sistema Acadêmico</h1>
     </header>
-    <div class="container-pai">
+    <h2>Acesso Administrativo</h2>
         <div id="container">
-            <h2>Acesso Administrativo</h2>
             <form>
                 <div class="form-group">
-                    <label for="username">Login<br>(nome.sobrenome)</label>
+                    <label for="username">Login (nome.sobrenome)</label>
                     <input type="text" id="username" name="username">
                 </div>
                 <div class="form-group">
@@ -24,23 +23,21 @@
                 </div>
                 <div class="form-group">
                     <a href="#">Esqueceu sua senha?</a>
-                    <button id="btn-enviar" type="submit">Entrar</button>
+                    <button id="btn-enviar" type="submit">Enviar</button>
                 </div>
             </form>
-            <div>
-                <hr>
-                <span>ou</span>
-            </div>
-            <div class="govbr-login">
-                <button class="govbr-btn">Entrar com <strong>gov.br</strong></button>
-            </div>
         </div>
-        <div class="acesso-estu">
+        <div class="ou">
+            <span>OU</span>
+        </div>
+        <button id="botao" type="submit">Entrar com
+            <img src="img/govbr-colorido-b.png" alt="imagem do gov" width="60" height="30">
+        </button>
+        <div class="Acesso-Estu">
             <h2>Acesso Estudante / Responsável</h2>
             <button class="btn-estu">Área do Estudante</button>
             <p>Acompanhe o desenvolvimento do Sistema Acadêmico</p>
             <button class="btn-rqst">Planilha com Requisitos</button>
         </div>
-    </div>
 </body>
 </html>
