@@ -61,6 +61,16 @@ input{
     border-radius: 5px;
     width: 79%;
 }
+div h2{
+    font-size:28px;
+    font-weight:bold;
+    color:#333;
+    text-align:center;
+    margin:20px 0; 
+    padding:10px; 
+    background-color:#fff;
+    border-radius:8px; 
+}
 .Acesso-Estu{
     flex:1;
     background-color:#f9f9f9;
@@ -69,12 +79,6 @@ input{
     border-radius:8px;
     text-align:center;
     margin-top:20px;
-}
-.Acesso-Estu h2{
-    font-size:30px;
-    color:#333;
-    font-weight:bold;
-    margin-bottom:15px;
 }
 .btn-estu{
     background-color:#28a745;
@@ -110,7 +114,7 @@ input{
 .btn-rqst:hover{
     background-color:#0056b3
 }
-.ou {
+.ou{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -120,17 +124,17 @@ input{
     font-weight: bold;
     color: #555;
 }
-.ou hr {
+.ou hr{
     flex: 1;
     border: none;
     border-top: 1px solid #ccc;
 }
-.govbr-login {
+.govbr-login{
     display: flex;
     justify-content: center;
     margin: 20px 0;
 }
-#botao {
+#botao{
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -145,10 +149,10 @@ input{
     transition: background-color 0.3s ease;
 }
 
-#botao img {
+#botao img{
     margin-left: 10px;
 }
 
-#botao:hover {
+#botao:hover{
     background-color: #0056b3;
 }
